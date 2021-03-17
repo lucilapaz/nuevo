@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  
+  <head>
+    <meta name="description" content="Fan Page de la serie Normal People">
+    <meta name="keywords" content="NORMAL PEOPLE, SERIE, LIBRO, FANPAGE, DAISY EDGAR-JONES, PAUL MESCAL">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="fondoFuerte">
+    <div class="box"> <!-- contenedor padre-->
+      <div class="hijo"> <!-- hijo 1 -->
+        <header class="centrar">
+        <h1 class="title">Normal People Fanpage</h1>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+         <!-- Indicators -->
+         <ul class="carousel-indicators">
+           <li data-target="#demo" data-slide-to="0" class="active"></li>
+           <li data-target="#demo" data-slide-to="1"></li>
+           <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+         <!-- The slideshow -->
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+             <a href="../index.html"><img src="../img/imagenuno.gif" alt="connell y marianne" class="rounded-circle"></a>
+           </div>
+           <div class="carousel-item">
+             <a href="../index.html"><img src="../img/uno.jpg" alt="connell y marianne" class="rounded-circle img"></a>
+           </div>
+           <div class="carousel-item">
+             <a href="../index.html"><img src="../img/dos.jpg" alt="connell y marianne" class="rounded-circle img"></a>
+           </div>
+         </div>
+         <!-- Left and right controls -->
+         <a class="carousel-control-prev" href="#demo" data-slide="prev">
+           <span class="carousel-control-prev-icon"></span>
+          </a>
+         <a class="carousel-control-next" href="#demo" data-slide="next">
+           <span class="carousel-control-next-icon"></span>
+         </a>
+       </div>
+       <div class="topnav" >
+         <nav class="navegacion"> 
+           <ul class="navegacion__lista">
+             <li class="navegacion__lista--li"><a href="../index.html">Home </a></li>
+             <li class="navegacion__lista--li"><a href="elenco.html"> Elenco </a></li>
+             <li class="navegacion__lista--li"><a href="temporadas.html"> Temporadas </a></li>
+             <li class="navegacion__lista--li"><a href="libro.html"> Libro </a></li>
+             <li class="navegacion__lista--li"><a href="autor.html"> Autor </a></li>
+             <li class="navegacion__lista--li"><a href="contacto.html"> Contacto </a></li>
+           </ul>
+         </nav>
+       </div>
+      </header>
+      </div>
+    </div>
+      <main>
+       <h2 class="formulario title">Formulario</h2>
+       <section>
+          <div class="wrapper"> <!-- contenedor padre-->
+             <article>
+              <!-- Button -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+               Open modal
+             </button>
+             <!-- The Modal -->
+             <div class="modal" id="myModal">
+             <div class="modal-dialog">
+               <div class="modal-content">
+                 <!-- Modal Header -->
+                 <div class="modal-header">
+                    <h4 class="modal-title">Modal Heading</h4>
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 </div>
+                 <!-- Modal body -->
+                 <div class="modal-body">
+                    <form>
+                     <fieldset>
+                       <legend>Contacto</legend><!-- Aquí irán los elementos de formulario -->
+                       <label for="nombre_apellido">Nombre</label>
+                       <input type="text" name="nombre_apellido"> <br><br>
+                       <div>Hombre</div>
+                       <input type="radio" name="sexo" value="hombre"/>
+                       <div>Mujer</div>
+                       <input type="radio" name="sexo" value="mujer"/>
+                       <h3>Preguntas</h3>
+                         <div>¿Vio la serie?</div>
+                       <input type="checkbox" name="Acepta" value="1"> <br><br>
+                       <h3>Personaje favorito</h3>
+                         <select name="personaje">
+                           <option value="l">Connell</option>
+                           <option value="m">Marianne</option>
+                           <option value="s">otro</option>
+                          </select>
+                       <input type="submit" value="Enviar este formulario" />
+                       <input type="reset" value="Restablecer Valores" />
+                     </fieldset>
+                    </form>
+                  </div>
+                 <!-- Modal footer -->
+                 <div class="modal-footer">
+                   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                 </div>
+               </div>
+             </div>
+           </div>
+        </article>
+      </div>
+      </section>
+     </main>
+    
+     <div class="box"> <!-- contenedor padre-->
+        <div class="hijo"> <!-- hijo 1 -->
+          <footer>
+            <img src="../img/footer.jpg" alt="actores">
+            <p>
+              Escrito por <a href="mailto:lucilacaropaz@gmail.com">Lucila Paz</a> <br>
+              Buenos Aires, Argentina.
+            </p>
+         </footer>
+        </div>
+     </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

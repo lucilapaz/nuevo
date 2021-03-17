@@ -1,0 +1,41 @@
+/*variable*/
+
+$ancho: 720px; 
+$green: rgb(111, 141, 111);
+$blue: rgb(91, 91, 158);
+$red: rgb(163, 83, 83); 
+$black: rgb(20, 18, 18); 
+$color: black;
+
+
+
+
+.div {
+    border: 1px solid black;
+    width: $ancho;
+    background-color: $green;
+}
+.uno {
+    background-color: $blue;
+    width: $ancho/2;
+}
+.caja {
+    border: 2px solid black;
+    background-color: rgb(206, 151, 112);
+    text-align: center;
+    height: 35px;
+
+    @if $color==green{
+        background-color: cyan;
+    }@else if $color== black {
+        background-color: blueviolet; 
+    }
+    }
+
+    /*bucle*/
+
+   @for $i from 1 through 3 {
+       .casitodos-#{$i} {width: 2em*$i;}
+
+       
+   }

@@ -1,0 +1,41 @@
+@import "components";
+@import "layout";
+@import "base";
+@import "operaciones";
+
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+ 
+  
+  /*animacion*/
+
+.cajaRoja{
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    transition: heigth 2s;
+  }
+  
+  .cajaRoja:hover{
+    height: 200px;
+  }
+  
+  h1{
+    animation-duration: 2s;
+    animation-name: aparecer;
+  }
+  
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+ 
